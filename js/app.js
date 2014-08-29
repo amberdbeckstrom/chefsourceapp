@@ -5,7 +5,7 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
             description: 'A tastey greek pizza with lots of sauce, red peppers, olives, basil, feta cheese, sun dried tomatoes.',
             title: "Greek Pizza"
         },
-            {image: 'images/img01.jpg',
+            {image: 'images/burger.png',
             description: 'Nulla elementum orci libero, id varius eros imperdiet quis. Ut quis ante eros. In posuere felis et eros tempor lobortis. Fusce lacinia fringilla dui, ut sollicitudin elit iaculis eu. Suspendisse mattis diam dolor, in condimentum ex imperdiet vitae. Phasellus ut odio vitae odio rhoncus eleifend. ',
             title: "Cheese"
         },
