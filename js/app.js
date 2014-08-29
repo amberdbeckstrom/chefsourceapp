@@ -6,15 +6,15 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
             title: "Greek Pizza"
         },
             {image: 'images/burger.png',
-            description: 'Nulla elementum orci libero, id varius eros imperdiet quis. Ut quis ante eros. In posuere felis et eros tempor lobortis. Fusce lacinia fringilla dui, ut sollicitudin elit iaculis eu. Suspendisse mattis diam dolor, in condimentum ex imperdiet vitae. Phasellus ut odio vitae odio rhoncus eleifend. ',
+            description: 'Nulla elementum orci libero, id varius eros imperdiet quis. Ut quis ante eros.',
             title: "Cheese"
         },
             {image: 'images/img02.jpg', 
-            description: 'Morbi nulla nisi, aliquet sed tristique eu, imperdiet at erat. Sed feugiat nec velit a semper. Quisque sed pharetra tortor.',
+            description: 'Morbi nulla nisi, aliquet sed tristique eu, imperdiet at erat. Sed feugiat nec velit a semper.',
             title: "BBQ Pizza"
         },
             {image: 'images/img03.jpg', 
-            description: ' lobortis orci ac, varius magna. Duis posuere elit non turpis dignissim pharetra. Vivamus eget turpis ac ipsum ultrices pretium.',
+            description: ' lobortis orci ac, varius magna. Duis posuere elit non turpis dignissim pharetra. Vivamus eget turpis ac.',
             title: "Turkey"
         },
             {image: 'images/img04.jpg', 
