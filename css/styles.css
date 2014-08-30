@@ -277,7 +277,7 @@ a:visited {
 
 
 .slider {
-    max-width: 100%;
+    max-width: 320px;
     height: 500px;
     position: relative;
 }
@@ -286,7 +286,7 @@ a:visited {
     position: absolute;
     top: 0;
     left: 0;
-    max-width: 100%;
+    max-width: 320px;
 }
 
 }
