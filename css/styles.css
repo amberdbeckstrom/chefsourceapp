@@ -114,7 +114,7 @@ header {
 .searchbtn {
     float: right;
     width: 24px;
-    margin: -23px 6px 0px 0px;
+    margin: -23px 10px 0px 0px;
 }
 
 .navtitle {
@@ -148,6 +148,43 @@ p {
     color: #3c3c3c;
     position: absolute;
     width: 256px;
+}
+
+
+h3.ingredients {
+    margin: 87px 32px 0px 32px;
+}
+
+h3.directions {
+    margin: 225px 32px 0px 32px;
+}
+
+ul {
+    margin: 120px 32px 0px 32px;
+    list-style:none;
+    padding-left:0;
+    position: absolute;
+    width: 256px;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: .7em;
+    color: #3c3c3c;
+}​
+
+
+li.ing-item {
+    margin-top: 5%;   
+}
+
+p.ing-dir {
+    
+    margin: 256px 32px 0px 32px;
+}
+
+p.ing-dir2 {
+    
+    margin: 312px 32px 0px 32px;
 }
 
 form {
@@ -204,7 +241,7 @@ h1 {
 
 
 footer {
-    height: 92px;
+    height:392px;
     width: auto;
     position: relative;
     top: -75px;
@@ -232,11 +269,7 @@ a:visited {
 .slider {
     max-width: 100%;
     height: 500px;
-    
     position: relative;
-   
-    
-    
 }
 
 .slide {
@@ -246,7 +279,9 @@ a:visited {
     max-width: 100%;
 }
 
-.arrow {
+}
+
+/*.arrow {
     position: absolute;
     z-index: 1002;
     display: block;
@@ -281,7 +316,7 @@ a:visited {
 .arrow.next:hover {
     opacity: 1;
     background-image: url(../assets/img/paddle_next_fff.png);
-}
+}*/
 
 
 
@@ -354,3 +389,4 @@ NAV
     border-color: #FFF;
     background-color: transparent;
 }*/
+

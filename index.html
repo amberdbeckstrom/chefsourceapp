@@ -48,6 +48,20 @@
                     ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.image}}">
                     <h3>{{slide.title}}</h3>
                     <p>{{slide.description}}</p>
+                    <h3 class="ingredients">Ingredients</h3>
+                    <ul>
+                        <li class="ing-item">{{slide.ingredient1}}</li>
+                        <li class="ing-item">{{slide.ingredient2}}</li>
+                        <li class="ing-item">{{slide.ingredient3}}</li>
+                        <li class="ing-item">{{slide.ingredient4}}</li>
+                        <li class="ing-item">{{slide.ingredient5}}</li>
+
+                   </ul>
+
+                   <h3 class="directions">Directions</h3>
+                   <p class="ing-dir">{{slide.directions1}}</p>
+                   <p class="ing-dir2">{{slide.directions2}}</p>
+
                     </div>
                 
                 </footer> 

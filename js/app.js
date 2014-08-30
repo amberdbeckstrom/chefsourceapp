@@ -3,11 +3,24 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
         $scope.slides = [
             {image: 'images/taco2.png', 
             description: 'A tastey greek pizza with lots of sauce, red peppers, olives, basil, feta cheese, sun dried tomatoes.',
-            title: "Greek Pizza"
+            title: "Greek Pizza",
+            ingredient1: "1/2 C Red Onion",
+            ingredient2: "1 Bag Cheese",
+            ingredient3: "Crust",
+            ingredient4: "4 Tbs BBQ Sauce",
+            directions1: "1. Place the chicken in pan and let cook till chicken is no longer pink. Meanwhile, warm the tortillas in the oven or microwave until soft. ",
+            directions2: "2. When chicken is fully cooked, transfer to serving bowl. Place lettuce, tomatoes, cheese, salsa, and sour cream in serving dishes. Each person can create their own wrap, using their preferred ingredients."
         },
             {image: 'images/burger.png',
             description: 'Nulla elementum orci libero, id varius eros imperdiet quis. Ut quis ante eros.',
-            title: "Cheese"
+            title: "Cheese",
+            ingredient1: "2 Tbs Ranch",
+            ingredient2: "1lb Hamburger",
+            ingredient3: "Tomatos",
+            ingredient4: "Lettuce",
+            ingredient5: "Bacon",
+            directions1: "1. Turducken salami filet mignon sausage leberkas pork belly tenderloin pork loin. Spare ribs filet mignon ribeye, doner jowl beef ribs flank meatball bresaola. ",
+            directions2: "2. Cow bresaola fatback, chicken short ribs pastrami kielbasa drumstick"
         },
             {image: 'images/img02.jpg', 
             description: 'Morbi nulla nisi, aliquet sed tristique eu, imperdiet at erat. Sed feugiat nec velit a semper.',
