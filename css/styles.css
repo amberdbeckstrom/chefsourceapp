@@ -99,8 +99,7 @@ body {
 
 header {
     height: 36px;
-    width: auto;
-    margin: 0 auto;
+    width: 320px;
     background-color: #e74c3c;
 }
 
