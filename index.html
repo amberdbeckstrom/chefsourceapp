@@ -42,7 +42,7 @@
     </nav> -->
 </div>
 
-                <footer>
+                <div class="recipe">
                     <div ng-repeat="slide in slides" class="slide slide-animation nonDraggableImage"
                     ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()"
                     ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.image}}">
@@ -61,9 +61,12 @@
                    <h3 class="directions">Directions</h3>
                    <p class="ing-dir">{{slide.directions1}}</p>
                    <p class="ing-dir2">{{slide.directions2}}</p>
+                   <p class="ing-dir3">{{slide.directions3}}</p>
 
                     </div>
                 
+                </div>
+                <footer>
                 </footer> 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

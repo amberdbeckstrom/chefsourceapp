@@ -9,7 +9,9 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
             ingredient3: "Crust",
             ingredient4: "4 Tbs BBQ Sauce",
             directions1: "1. Place the chicken in pan and let cook till chicken is no longer pink. Meanwhile, warm the tortillas in the oven or microwave until soft. ",
-            directions2: "2. When chicken is fully cooked, transfer to serving bowl. Place lettuce, tomatoes, cheese, salsa, and sour cream in serving dishes. Each person can create their own wrap, using their preferred ingredients."
+            directions2: "2. When chicken is fully cooked, transfer to serving bowl. Place lettuce, tomatoes, cheese, salsa, and sour cream in serving dishes. Each person can create their own wrap, using their preferred ingredients.",
+            directions3: "3. Chicken short ribs pastrami kielbasa drumstick"
+
         },
             {image: 'images/burger.png',
             description: 'Nulla elementum orci libero, id varius eros imperdiet quis. Ut quis ante eros.',
@@ -20,7 +22,9 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
             ingredient4: "Lettuce",
             ingredient5: "Bacon",
             directions1: "1. Turducken salami filet mignon sausage leberkas pork belly tenderloin pork loin. Spare ribs filet mignon ribeye, doner jowl beef ribs flank meatball bresaola. ",
-            directions2: "2. Cow bresaola fatback, chicken short ribs pastrami kielbasa drumstick"
+            directions2: "2. Cow bresaola fatback, chicken short ribs pastrami kielbasa drumstick",
+            directions3: "3. Cow bresaola fatback, chicken short ribs pastrami kielbasa drumstick"
+
         },
             {image: 'images/img02.jpg', 
             description: 'Morbi nulla nisi, aliquet sed tristique eu, imperdiet at erat. Sed feugiat nec velit a semper.',

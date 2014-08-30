@@ -86,7 +86,6 @@ input.ng-valid {
 
 body {
     width: 320px;
-
 }
 
 
@@ -179,12 +178,17 @@ li.ing-item {
 
 p.ing-dir {
     
-    margin: 256px 32px 0px 32px;
+    margin: 258px 32px 0px 32px;
 }
 
 p.ing-dir2 {
     
     margin: 312px 32px 0px 32px;
+}
+
+p.ing-dir3 {
+    
+    margin: 383px 32px 0px 32px;
 }
 
 form {
@@ -238,9 +242,16 @@ h1 {
     
 }
 
-
-
 footer {
+    height: 16px;
+    width: auto;
+    background-color: #e74c3c; 
+    z-index: 101;  
+
+}
+
+
+.recipe {
     height:392px;
     width: auto;
     position: relative;
@@ -249,6 +260,7 @@ footer {
     z-index: 99;
 
 }
+
 
 a {
     font-family: 'Oswald', sans-serif;
@@ -263,7 +275,6 @@ a:link {
 a:visited {
     color: #ffffff;
 }
-
 
 
 .slider {
