@@ -131,7 +131,7 @@ h3 {
     margin: 12px 32px 0px 32px;
     padding-top: 3%;
     position: absolute;
-    width: 320px;
+    width: 256px;
 }   
 
 p {
@@ -141,7 +141,7 @@ p {
     margin: 39px 32px 0px 32px;
     color: #3c3c3c;
     position: absolute;
-    width: 320px;
+    width: 256px;
 }
 
 form {
