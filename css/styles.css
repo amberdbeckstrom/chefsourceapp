@@ -128,16 +128,20 @@ h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: .9em;
-    margin: 0% 8% 0px 8%;
-    padding-top: 2.5%;
+    margin: 12px 32px 0px 32px;
+    padding-top: 3%;
+    position: absolute;
+    width: 320px;
 }   
 
 p {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     font-size: .7em;
-    margin: 2% 8% 0% 8%;
+    margin: 39px 32px 0px 32px;
     color: #3c3c3c;
+    position: absolute;
+    width: 320px;
 }
 
 form {
@@ -279,7 +283,7 @@ a:visited {
 NAV
 ---------------------------------------------------------*/
 
-.nav {
+/*.nav {
     text-align: center;
     display: block;
     position: absolute;
@@ -343,4 +347,4 @@ NAV
 .dots .dot a.active {
     border-color: #FFF;
     background-color: transparent;
-}
+}*/
