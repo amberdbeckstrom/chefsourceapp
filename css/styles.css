@@ -84,6 +84,12 @@ input.ng-valid {
     background-image: url("img/kitchen.png");
 }*/
 
+body {
+    width: 320px;
+
+}
+
+
 .loginpic {
     z-index: 1;
     position: relative;
@@ -200,7 +206,7 @@ h1 {
 footer {
     height: 92px;
     width: auto;
-    position: absolute;
+    position: relative;
     top: -75px;
     background-color: #ffffff;
     z-index: 99;
