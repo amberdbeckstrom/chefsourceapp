@@ -23,7 +23,7 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
             ingredient5: "Bacon",
             directions1: "1. Turducken salami filet mignon sausage leberkas pork belly tenderloin pork loin. Spare ribs filet mignon ribeye, doner jowl beef ribs flank meatball bresaola. ",
             directions2: "2. Cow bresaola fatback, chicken short ribs pastrami kielbasa drumstick",
-            directions3: "3. Cow bresaola fatback, chicken short ribs pastrami kielbasa drumstick"
+            directions3: "3. Cow bresaola fatback, chicken short ribs."
 
         },
             {image: 'images/img02.jpg', 
