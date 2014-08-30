@@ -26,15 +26,15 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
             directions3: "3. Cow bresaola fatback, chicken short ribs."
 
         },
-            {image: 'images/img02.jpg', 
+            {image: 'images/taco2.png', 
             description: 'Morbi nulla nisi, aliquet sed tristique eu, imperdiet at erat. Sed feugiat nec velit a semper.',
             title: "BBQ Pizza"
         },
-            {image: 'images/img03.jpg', 
+            {image: 'images/burger.png', 
             description: ' lobortis orci ac, varius magna. Duis posuere elit non turpis dignissim pharetra. Vivamus eget turpis ac.',
             title: "Turkey"
         },
-            {image: 'images/img04.jpg', 
+            {image: 'images/taco2.png', 
             description: 'In eu dui venenatis, semper turpis sit amet, porttitor turpis. Vivamus eu ornare turpis.',
             title: "Alfredo"
         }
