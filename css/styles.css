@@ -99,6 +99,7 @@ header {
     height: 36px;
     width: 320px;
     background-color: #e74c3c;
+    position: fixed;
 
 }
 
