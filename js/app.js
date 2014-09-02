@@ -89,7 +89,7 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
                         startPoint = -startPoint;
                     }
 
-                    TweenMax.fromTo(element, 0.5, { left: startPoint }, {left: 0, onComplete: done });
+                    TweenMax.fromTo(element, 0, { left: startPoint }, {left: 0, onComplete: done });
                 }
                 else {
                     done();
