@@ -72,7 +72,7 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
                     if(scope.direction !== 'right') {
                         finishPoint = -finishPoint;
                     }
-                    TweenMax.to(element, 2, {left: finishPoint, onComplete: done });
+                    TweenMax.to(element, 0, {left: finishPoint, onComplete: done });
                 }
                 else {
                     done();
