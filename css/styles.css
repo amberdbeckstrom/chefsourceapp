@@ -71,11 +71,8 @@ input.ng-valid {
     height: 400px;
 }
 
-.catimg {
-    width: 160px;
-    height: 175px;
-    float: left;
-}
+
+
 
 body {
     width: 320px;
@@ -127,6 +124,35 @@ header {
     font-size: 1.3em;
 
     
+}
+
+
+.catdiv {
+    width: 160px;
+    height: 175px;
+    float: left;
+   
+}
+
+.cattitle {
+    width: 100px;
+    text-align: center;
+    float: right;
+    top: 80px;
+    left: -30px;
+    color: #000000;
+    font-family: 'Lobster', cursive;
+    font-size: 1em;
+    z-index: 5;
+}
+
+
+.catimg {
+    width: 160px;
+    height: 175px;
+    float: left;
+    position: fixed;
+    z-index: 2;
 }
 
 h3 {
@@ -248,6 +274,7 @@ footer {
     width: 320px;
     background-color: #e74c3c; 
     z-index: 101;  
+    clear: both;
 
 }
 
