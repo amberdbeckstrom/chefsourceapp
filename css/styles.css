@@ -131,6 +131,7 @@ header {
     width: 160px;
     height: 175px;
     float: left;
+    position: fixed;
    
 }
 
