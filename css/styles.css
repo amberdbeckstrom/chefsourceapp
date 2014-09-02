@@ -131,7 +131,7 @@ header {
     width: 160px;
     height: 175px;
     float: left;
-    position: fixed;
+ 
    
 }
 
@@ -145,6 +145,7 @@ header {
     font-family: 'Lobster', cursive;
     font-size: 1em;
     z-index: 5;
+
 }
 
 
@@ -152,7 +153,7 @@ header {
     width: 160px;
     height: 175px;
     float: left;
-    position: fixed;
+    position: absolute;
     z-index: 2;
 }
 
