@@ -24,57 +24,25 @@
 
 <body ng-controller="MainCtrl">
 
-<div class="container slider">
-    <img ng-repeat="slide in slides" class="slide slide-animation nonDraggableImage"
-         ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()"
-         ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.image}}">
+<div class="categories">
 
-    <a class="arrow prev" href="#" ng-click="nextSlide()"></a>
-    <a class="arrow next" href="#" ng-click="prevSlide()"></a>
-    <!-- <nav class="nav">
-        <div class="wrapper">
-            <ul class="dots">
-                <li class="dot" ng-repeat="slide in slides">
-                    <a href="#" ng-class="{'active':isCurrentSlideIndex($index)}"
-                       ng-click="setCurrentSlideIndex($index);">{{slide.description}}</a></li>
-            </ul>
-        </div>
-    </nav> -->
+<a href="swipe.html"><img class="catimg"src="images/appetizers.png" alt="appetizers"></a>
+<a href="swipe.html"><img class="catimg"src="images/breakfast.png" alt="breakfast"></a>
+<a href="swipe.html"><img class="catimg"src="images/lunch.png" alt="lunch"></a>
+<a href="swipe.html"><img class="catimg"src="images/steak.png" alt="dinner"></a>
+<a href="swipe.html"><img class="catimg"src="images/drinks.png" alt="drinks"></a>
+<a href="swipe.html"><img class="catimg"src="images/desserts.png" alt="desserts"></a>
 </div>
 
-                <div class="recipe">
-                    <div ng-repeat="slide in slides" class="slide slide-animation nonDraggableImage"
-                    ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()"
-                    ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.image}}">
-                    <h3>{{slide.title}}</h3>
-                    <p>{{slide.description}}</p>
-                    <h3 class="ingredients">Ingredients</h3>
-                    <ul>
-                        <li class="ing-item">{{slide.ingredient1}}</li>
-                        <li class="ing-item">{{slide.ingredient2}}</li>
-                        <li class="ing-item">{{slide.ingredient3}}</li>
-                        <li class="ing-item">{{slide.ingredient4}}</li>
-                        <li class="ing-item">{{slide.ingredient5}}</li>
-
-                   </ul>
-
-                   <h3 class="directions">Directions</h3>
-                   <p class="ing-dir">{{slide.directions1}}</p>
-                   <p class="ing-dir2">{{slide.directions2}}</p>
-                   <p class="ing-dir3">{{slide.directions3}}</p>
-
-                    </div>
-                
-                </div>
-                <footer>
-                </footer> 
+<footer>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-animate.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-touch.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
-<script src="/bower_components/angular/angular.js"></script>
+
 <script src="js/app.js"></script>
 
 </body>

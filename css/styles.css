@@ -71,23 +71,23 @@ input.ng-valid {
     height: 400px;
 }
 
-/*.loginpic {
-    
-    background-image: url("img/kitchen.png");
-    background-repeat: no-repeat;
-    background-position: left top;
-
-}*/
-
-
-/*.loginpic {
-    background-image: url("img/kitchen.png");
-}*/
+.catimg {
+    width: 160px;
+    height: 175px;
+    float: left;
+}
 
 body {
     width: 320px;
 
 }
+
+.categories {
+    width: 320px;
+
+}
+
+
 
 
 .loginpic {
