@@ -28,15 +28,39 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
         },
             {image: 'images/granola.png', 
             description: 'Morbi nulla nisi, aliquet sed tristique eu, imperdiet at erat. Sed feugiat nec velit a semper.',
-            title: "BBQ Pizza"
+            title: "BBQ Pizza",
+            ingredient1: "2 Tbs Ranch",
+            ingredient2: "1lb Hamburger",
+            ingredient3: "Tomatos",
+            ingredient4: "Lettuce",
+            ingredient5: "Bacon",
+            directions1: "1. Turducken salami filet mignon sausage leberkas pork belly tenderloin pork loin. Spare ribs filet mignon ribeye, doner jowl beef ribs flank meatball bresaola. ",
+            directions2: "2. Cow bresaola fatback, chicken short ribs pastrami kielbasa drumstick",
+            directions3: "3. Cow bresaola fatback, chicken short ribs."
         },
             {image: 'images/pie.png', 
             description: ' lobortis orci ac, varius magna. Duis posuere elit non turpis dignissim pharetra. Vivamus eget turpis ac.',
-            title: "Turkey"
+            title: "Turkey",
+            ingredient1: "2 Tbs Ranch",
+            ingredient2: "1lb Hamburger",
+            ingredient3: "Tomatos",
+            ingredient4: "Lettuce",
+            ingredient5: "Bacon",
+            directions1: "1. Turducken salami filet mignon sausage leberkas pork belly tenderloin pork loin. Spare ribs filet mignon ribeye, doner jowl beef ribs flank meatball bresaola. ",
+            directions2: "2. Cow bresaola fatback, chicken short ribs pastrami kielbasa drumstick",
+            directions3: "3. Cow bresaola fatback, chicken short ribs."
         },
             {image: 'images/pancakes.png', 
             description: 'In eu dui venenatis, semper turpis sit amet, porttitor turpis. Vivamus eu ornare turpis.',
-            title: "Alfredo"
+            title: "Alfredo",
+            ingredient1: "2 Tbs Ranch",
+            ingredient2: "1lb Hamburger",
+            ingredient3: "Tomatos",
+            ingredient4: "Lettuce",
+            ingredient5: "Bacon",
+            directions1: "1. Turducken salami filet mignon sausage leberkas pork belly tenderloin pork loin. Spare ribs filet mignon ribeye, doner jowl beef ribs flank meatball bresaola. ",
+            directions2: "2. Cow bresaola fatback, chicken short ribs pastrami kielbasa drumstick",
+            directions3: "3. Cow bresaola fatback, chicken short ribs."
         }
         ];
 
@@ -96,5 +120,6 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
                 }
             }
         };
-    });
+
+});
 

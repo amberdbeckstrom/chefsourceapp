@@ -10,72 +10,46 @@
             <!-- <link rel="stylesheet" type="text/css"href="bootstrap.css"> -->
             <link href='http://fonts.googleapis.com/css?family=Lobster|Oswald' rel='stylesheet' type='text/css'>
             <meta name="apple-mobile-web-app-capable" content="yes" />
+
             <link href="css/bootstrap" rel="stylesheet">
             <link rel="stylesheet" href="css/styles.css">
             <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
     
+
     <header>
+        <a href="index.html"><img class="backarrow"src="images/arrow.png" alt="back arrow"></a>
         <h2 class="navtitle">ChefSource</h2>
         <img class="searchbtn"src="images/search.png" alt="search button">
     </header>
-    
+
     <div class="searchbox">
     </div>
     <form>
         <input class="search" type="text" ng-model="search.title" placeholder="Search" ng-maxlength="20" ng-minlength="0">
     </form>
 
-
-                  
+    <ul class="showtitle">
+      <li class='' ng-repeat="slide in slides | filter:search">
+       <h3>{{slide.title}}</h3>
+      </li>
+    </ul>            
 
 <body ng-controller="MainCtrl">
 
-<div class="categories">
+</body>
 
-<div class="catdiv">
-<a href="swipe.html"><h1 class="cattitle">Appetizers</h1></a>
-<a href="swipe.html"><img class="catimg"src="images/appetizers.png" alt="appetizers"></a>
-</div>
-
-
-<div class="catdiv">
-<a href="swipe.html"><h1 class="cattitle">Breakfast</h1></a>
-<a href="swipe.html"><img class="catimg"src="images/breakfast.png" alt="breakfast"></a>
-</div>
-
-<div class="catdiv">
-<a href="swipe.html"><h1 class="cattitle">Lunch</h1></a>
-<a href="swipe.html"><img class="catimg"src="images/lunch.png" alt="lunch"></a>
-</div>
-
-
-<div class="catdiv">
-<a href="swipe.html"><h1 class="cattitle">Dinner</h1></a>
-<a href="swipe.html"><img class="catimg"src="images/steak.png" alt="dinner"></a>
-</div>
-
-<div class="catdiv">
-<a href="swipe.html"><h1 class="cattitle">Drinks</h1></a>
-<a href="swipe.html"><img class="catimg"src="images/drinks.png" alt="drinks"></a>
-</div>
-
-<div class="catdiv">
-<a href="swipe.html"><h1 class="cattitle">Desserts</h1></a>
-<a href="swipe.html"><img class="catimg"src="images/desserts.png" alt="desserts"></a>
-</div>
-</div>
-
-<!-- <footer>
-</footer> -->
+                <footer>
+                </footer> 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-animate.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-touch.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
-
+<script src="/bower_components/angular/angular.js"></script>
 <script src="js/app.js"></script>
+<script src="js/jq.js"></script>
 
 </body>
 </html>

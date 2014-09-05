@@ -61,6 +61,31 @@ input.ng-valid {
     height: 568px;
 }*/
 
+/*.showtitle {
+    position: fixed;
+    z-index: 100;
+}*/
+
+.search {
+    position: fixed;
+    margin: 2% 0% 0% 10%;
+    background: rgba(255, 255, 255, .5);
+    height: 30px;
+    width: 220px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    z-index: 152;
+}
+
+.searchbox{
+    position: fixed;
+    width: 320px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.4);
+    z-index: 151;
+}
+
 
 
 .recipepic {
@@ -72,8 +97,6 @@ input.ng-valid {
 }
 
 
-
-
 body {
     width: 320px;
 
@@ -83,8 +106,6 @@ body {
     width: 320px;
 
 }
-
-
 
 
 .loginpic {
@@ -122,8 +143,6 @@ header {
     padding-top: 4px;
     font-family: 'Lobster', cursive;
     font-size: 1.3em;
-
-    
 }
 
 
@@ -131,9 +150,8 @@ header {
     width: 160px;
     height: 175px;
     float: left;
- 
-   
-}
+ }
+
 
 .cattitle {
     width: 100px;
@@ -145,7 +163,6 @@ header {
     font-family: 'Lobster', cursive;
     font-size: 1em;
     z-index: 5;
-
 }
 
 
@@ -153,8 +170,13 @@ header {
     width: 160px;
     height: 175px;
     float: left;
-    position: absolute;
+    position: relative;
     z-index: 2;
+}
+
+.categories {
+    position: relative;
+    margin-top: -20px;
 }
 
 h3 {
@@ -311,6 +333,7 @@ a:visited {
     max-width: 320px;
     height: 500px;
     position: relative;
+    z-index: 1;
 }
 
 .slide {
@@ -318,6 +341,7 @@ a:visited {
     top: 0;
     left: 0;
     max-width: 320px;
+    z-index: 1;
 }
 
 }
