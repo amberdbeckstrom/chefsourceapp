@@ -1,13 +1,15 @@
 $(document).ready(function(){
-    $(".searchbox").hide()
-    $(".search").hide()
+    $(".searchbox").hide();
+    // $(".searchbox").slideUp();
+    $(".search").hide();
 
     
     
     $('.searchbtn').click(function(){
-    	toggleComposeHeight();
-		$(".searchbox").slideDown();
-	})
+    	$(".searchbox").slideToggle();
+  //   	toggleComposeHeight();
+		// $(".searchbox").slideDown();
+	});
 
 
     $('.searchbtn').click(function(){
@@ -37,32 +39,32 @@ $(document).ready(function(){
 	  });
 
     $(document).keypress(function(e) {
-  	 if(e.which == 13) {
-     window.location.replace("searchres.html");
-  }
+  		if(e.which === 13) {
+     		window.location.replace("searchres.html");
+  		}
 });
  
 
 
- var toggleComposeHeight = function(){
-	var compose = $('#toggle');
+//  var toggleComposeHeight = function(){
+// 	var compose = $('#toggle');
 	
-	if (compose.height() == 0){
-		compose.height('50px');
-		}else {
-			compose.height('0px');
-		}
-	}
+// 	if (compose.height() == 0){
+// 		compose.height('50px');
+// 		}else {
+// 			compose.height('0px');
+// 		}
+// 	}
 
-var toggleInputHeight = function(){
-	var compose = $('#toggle');
+// var toggleInputHeight = function(){
+// 	var compose = $('#toggle');
 	
-	if (compose.height() == 0){
-		compose.height('30px');
-		}else {
-			compose.height('0px');
-		}
-	}
+// 	if (compose.height() == 0){
+// 		compose.height('30px');
+// 		}else {
+// 			compose.height('0px');
+// 		}
+// 	}
 
     
 

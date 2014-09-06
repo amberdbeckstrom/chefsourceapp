@@ -61,10 +61,10 @@ input.ng-valid {
     height: 568px;
 }*/
 
-/*.showtitle {
+.showtitle {
     position: fixed;
     z-index: 100;
-}*/
+}
 
 .search {
     position: fixed;
@@ -85,7 +85,6 @@ input.ng-valid {
     background-color: rgba(255,255,255,0.4);
     z-index: 151;
 }
-
 
 
 .recipepic {
@@ -170,13 +169,8 @@ header {
     width: 160px;
     height: 175px;
     float: left;
-    position: relative;
+    position: absolute;
     z-index: 2;
-}
-
-.categories {
-    position: relative;
-    margin-top: -20px;
 }
 
 h3 {
