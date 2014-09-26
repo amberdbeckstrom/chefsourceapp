@@ -76,7 +76,7 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
         ];
 
         $scope.direction = 'left';
-        $scope.currentIndex = 0;
+        $scope.currentIndex = 5;
 
         $scope.setCurrentSlideIndex = function (index) {
             $scope.direction = (index > $scope.currentIndex) ? 'left' : 'right';
