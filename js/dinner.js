@@ -2,7 +2,7 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
     .controller('MainCtrl', function ($scope) {
         $scope.slides = [
             {image: 'images/lasagna.png', 
-            description: 'Literally tastes like your in Italy.',
+            description: 'Literally tastes like youre in Italy.',
             title: "Spinach Lasagna",
             ingredient1: "1 Pound sweet Italian sausage",
             ingredient2: "3/4 pound lean ground beef",
@@ -38,7 +38,7 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
         },
 
             {image: 'images/wheat-noodles.png', 
-            description: ' lobortis orci ac, varius magna. Duis posuere elit non turpis dignissim pharetra. Vivamus eget turpis ac.',
+            description: ' A healthy meal that gives you the veggies and grains you need.',
             title: "Veggie Noodles",
             ingredient1: "1 Medium Green Pepper",
             ingredient2: "1 Medium Red Pepper",

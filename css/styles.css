@@ -123,14 +123,17 @@ header {
 }
 
 .backarrow {
-    float:left;
-    width: 20px;
-    margin: 7px 0px 0px 7px;
+    position: absolute;
+    width: 17px;
+    height: 20px;
+    top: 8px;
+    left: 7px;
+
 }
 
 .searchbtn {
     float: right;
-    width: 24px;
+    width: 22px;
     margin: -23px 10px 0px 0px;
 }
 
@@ -195,6 +198,8 @@ p {
 }
 
 
+
+
 h3.ingredients {
     margin: 87px 32px 0px 32px;
 }
@@ -228,7 +233,7 @@ p.ing-dir {
 
 p.ing-dir2 {
     
-    margin: 310px 32px 0px 32px;
+    margin: 305px 32px 0px 32px;
 }
 
 p.ing-dir3 {
@@ -301,10 +306,9 @@ footer {
     height:392px;
     width: 320px;
     position: relative;
-    top: -40px;
+    top: -43px;
     background-color: #ffffff;
     z-index: 99;
-
 }
 
 
