@@ -228,12 +228,12 @@ p.ing-dir {
 
 p.ing-dir2 {
     
-    margin: 312px 32px 0px 32px;
+    margin: 310px 32px 0px 32px;
 }
 
 p.ing-dir3 {
     
-    margin: 383px 32px 0px 32px;
+    margin: 363px 32px 0px 32px;
 }
 
 form {
@@ -301,7 +301,7 @@ footer {
     height:392px;
     width: 320px;
     position: relative;
-    top: -75px;
+    top: -40px;
     background-color: #ffffff;
     z-index: 99;
 
